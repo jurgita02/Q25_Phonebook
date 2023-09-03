@@ -1,6 +1,5 @@
 package org.ait.phonebook;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -11,26 +10,23 @@ public class CreateAccountTests extends TestBase{
     @BeforeMethod
     public void ensurePrecondition(){
         //precondition: if user should be logged out
-        if (!isElementPresent(By.cssSelector("a:nth-child(4)"))){
-            driver.findElement(By.xpath("//button[contains(.,'Sign Out')]")).click();
+        if (!isLoginLinkPresent()){
+            clickOnSignOutButton();
         }
         //click on login link- a:nth-child(4) -css\
-        driver.findElement(By.cssSelector("a:nth-child(4)")).click();
+        clickOnLoginLink();
     }
+
     @Test
-    public void newUserRegistrationPositiveTest(){
+    public void existedUserRegistrationNegativeTest(){
+        //leidzia naudoti ta pati meila n kartu.
+        int i = (int)System.currentTimeMillis()/1000%3000;
         //enter email - [placeholder='Email']- css
-        driver.findElement(By.cssSelector("[placeholder='Email']")).click();
-        driver.findElement(By.cssSelector("[placeholder='Email']")).clear();
-        driver.findElement(By.cssSelector("[placeholder='Email']")).sendKeys("jurgita@gmail.com");
-        //enter password - [placeholder='Password'] css
-        driver.findElement(By.cssSelector("[placeholder='Password']")).click();
-        driver.findElement(By.cssSelector("[placeholder='Password']")).clear();
-        driver.findElement(By.cssSelector("[placeholder='Password']")).sendKeys("Qwerty123456$");
+        fillRegistrationForm("jurgita"+i+"@gmail.com", "Qwerty123456$");
         //click on Registration button - //button[text()='Registration'] xpath
-        driver.findElement(By.xpath("//button[text()='Registration']")).click();
-        Assert.assertTrue(isElementPresent2(By.xpath("//button[contains(.,'Sign Out')]")));
-        //assert Sign out button displayed - //button[contains(.,'Sign Out')] xpath
+        clickOnRegistrationButton();
+        //assert is appeared, ta lentele virsuje, ispejimas, ten turi buti kazkas parasyta.T.y. Alert
+Assert.assertTrue(isAlertPresent());
 
     }
 
