@@ -1,0 +1,5 @@
+703  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\Alber\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+3110 [main] INFO  org.ait.phonebook.TestBase -- Start test
+4569 [main] INFO  org.ait.phonebook.TestBase -- stop test

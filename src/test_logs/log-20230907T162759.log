@@ -1,0 +1,15 @@
+666  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\Alber\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2413 [main] INFO  org.ait.phonebook.TestBase -- Start test
+2508 [main] INFO  org.ait.phonebook.TestBase -- stop test
+2514 [main] INFO  org.ait.phonebook.TestBase -- Start test
+4005 [main] INFO  org.ait.phonebook.TestBase -- stop test
+4007 [main] INFO  org.ait.phonebook.TestBase -- Start test
+4730 [main] INFO  org.ait.phonebook.TestBase -- stop test
+4732 [main] INFO  org.ait.phonebook.TestBase -- Start test
+15787 [main] INFO  org.ait.phonebook.TestBase -- stop test
+15790 [main] INFO  org.ait.phonebook.TestBase -- Start test
+17932 [main] INFO  org.ait.phonebook.TestBase -- stop test
+17933 [main] INFO  org.ait.phonebook.TestBase -- Start test
+40889 [main] INFO  org.ait.phonebook.TestBase -- stop test
