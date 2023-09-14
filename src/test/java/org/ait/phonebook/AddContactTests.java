@@ -1,10 +1,18 @@
 package org.ait.phonebook;
 
 import org.ait.phonebook.models.Contact;
+import org.ait.phonebook.models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import utils.DataProviders;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 public class AddContactTests extends TestBase {
     @BeforeMethod
@@ -39,4 +47,31 @@ public void postCondition(){
         app.getContactHelper().removeContact();
     }
 
+
+
+    @Test(dataProvider = "newContact",dataProviderClass = DataProviders.class)
+    public void addContactPositiveTestFromDataProvider(String name, String surname, String phone, String email, String address, String description){
+
+        app.getContactHelper().fillContactForm(new Contact()
+                .setName(name)
+                .setSurname( surname)
+                .setPhoneNumber(phone)
+                .setEmail(email)
+                .setAddress( address)
+                .setDesc(description));
+
+        app.getContactHelper().clickOnSaveButton();
+
+        Assert.assertTrue(app.getContactHelper().isContactAdded(name));
+
+    } @Test(dataProvider = "newContactWithCSVFile", dataProviderClass = DataProviders.class)
+    public void addContactPositiveTestFromDataProviderWithCSV(Contact contact){
+
+        app.getContactHelper().fillContactForm(contact);
+        app.getContactHelper().pause(1000);
+        app.getContactHelper().clickOnSaveButton();
+
+Assert.assertEquals(Integer.toString(app.getContactHelper().sizeOfContacts()),"1");
+
+    }
 }

@@ -26,12 +26,23 @@ public class UserHelper extends HelperBase {
         click(By.xpath("//button[text()='Registration']"));
     }
 
+    public void clickOnRegistrationButtonForScreencast() {
+        pause(500);
+        click(By.xpath("//button[text()='Registration']"));
+    }
+
     public void fillRegistrationForm(User user) {
         type(By.cssSelector("[placeholder='Email']"), user.getEmail());
         //enter password - [placeholder='Password'] css
         type(By.cssSelector("[placeholder='Password']"), user.getPassword());
     }
-
+    public void fillRegistrationFormForScreencast(User user) {
+        type(By.cssSelector("[placeholder='Email']"), user.getEmail());
+        pause(1000);
+        //enter password - [placeholder='Password'] css
+        type(By.cssSelector("[placeholder='Password']"), user.getPassword());
+        pause(2000);
+    }
     public boolean isSignOutButtonPresent() {
         return isElementPresent2(By.xpath("//button[contains(.,'Sign Out')]"));
     }

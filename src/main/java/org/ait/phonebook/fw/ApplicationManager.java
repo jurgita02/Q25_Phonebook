@@ -35,7 +35,7 @@ System.err.close();
             //maximize browser window
             driver.manage().window().maximize();
             //set implicit timeout
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(23, TimeUnit.SECONDS);
             user = new UserHelper(driver);
             contactHelper = new ContactHelper(driver);
             homePageHelper = new HomePageHelper(driver);
