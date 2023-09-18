@@ -20,18 +20,15 @@ HomePageHelper homePageHelper;
     }
 
     public void init() {
-System.err.close();
+System.err.close(); //nuima visus paaiskinimus konsoleje apacioje.
         if (browser.equalsIgnoreCase("chrome")) {
             driver = new ChromeDriver();
         }else if (browser.equalsIgnoreCase("firefox")) {
             driver =new FirefoxDriver();
         } else if (browser.equalsIgnoreCase("microsoftedge")) {
             driver = new EdgeDriver();
-
         }
-
-
-                    driver.get("https://telranedu.web.app");
+        driver.get("https://telranedu.web.app");
             //maximize browser window
             driver.manage().window().maximize();
             //set implicit timeout

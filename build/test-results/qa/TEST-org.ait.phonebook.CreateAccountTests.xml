@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ait.phonebook.CreateAccountTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-09-17T11:12:34" hostname="KOMPIUTERIS" time="0.721">
+  <properties/>
+  <testcase name="existedUserRegistrationNegativeTest" classname="org.ait.phonebook.CreateAccountTests" time="0.721"/>
+  <system-out><![CDATA[13:12:11.202 [Test worker] INFO  org.ait.phonebook.TestBase -- Start test existedUserRegistrationNegativeTestwith data: []
+13:12:35.028 [Test worker] INFO  org.ait.phonebook.TestBase -- PASSED:existedUserRegistrationNegativeTest
+13:12:35.028 [Test worker] INFO  org.ait.phonebook.TestBase -- stop test
+13:12:35.028 [Test worker] ERROR org.ait.phonebook.TestBase -- ********************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

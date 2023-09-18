@@ -1,0 +1,19 @@
+506  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\Alber\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+1985 [main] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestwith data: []
+4713 [main] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTest
+4714 [main] INFO  org.ait.phonebook.TestBase -- stop test
+4714 [main] ERROR org.ait.phonebook.TestBase -- ********************
+4720 [main] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderwith data: [Oliver, Kan, 12345678952, kan@gmail.com, Berlin, goalkeeper]
+30879 [main] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTestFromDataProvider
+30879 [main] INFO  org.ait.phonebook.TestBase -- stop test
+30879 [main] ERROR org.ait.phonebook.TestBase -- ********************
+30885 [main] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderwith data: [Oliver1, Kan, 12345679521, kan1@gmail.com, Berlin, goalkeeper1]
+56338 [main] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTestFromDataProvider
+56338 [main] INFO  org.ait.phonebook.TestBase -- stop test
+56338 [main] ERROR org.ait.phonebook.TestBase -- ********************
+56344 [main] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderwith data: [Oliver2, Kan, 123456712588, kan2@gmail.com, Berlin, goalkeeper2]
+82156 [main] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTestFromDataProvider
+82157 [main] INFO  org.ait.phonebook.TestBase -- stop test
+82157 [main] ERROR org.ait.phonebook.TestBase -- ********************

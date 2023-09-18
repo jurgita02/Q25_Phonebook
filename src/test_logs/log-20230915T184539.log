@@ -1,0 +1,7 @@
+513  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\Alber\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+1989 [main] INFO  org.ait.phonebook.TestBase -- Start test existedUserRegistrationNegativeTestwith data: []
+4515 [main] INFO  org.ait.phonebook.TestBase -- PASSED:existedUserRegistrationNegativeTest
+4516 [main] INFO  org.ait.phonebook.TestBase -- stop test
+4516 [main] ERROR org.ait.phonebook.TestBase -- ********************

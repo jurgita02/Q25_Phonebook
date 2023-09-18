@@ -1,0 +1,15 @@
+499  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\Alber\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2097 [main] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderwith data: [Oliver, Kan, 12345678952, kan@gmail.com, Berlin, goalkeeper]
+4924 [main] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTestFromDataProvider
+4924 [main] INFO  org.ait.phonebook.TestBase -- stop test
+4924 [main] ERROR org.ait.phonebook.TestBase -- ********************
+4925 [main] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderwith data: [Oliver1, Kan, 12345679521, kan1@gmail.com, Berlin, goalkeeper1]
+30906 [main] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTestFromDataProvider
+30906 [main] INFO  org.ait.phonebook.TestBase -- stop test
+30906 [main] ERROR org.ait.phonebook.TestBase -- ********************
+30912 [main] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderwith data: [Oliver2, Kan, 123456712588, kan2@gmail.com, Berlin, goalkeeper2]
+56735 [main] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTestFromDataProvider
+56735 [main] INFO  org.ait.phonebook.TestBase -- stop test
+56735 [main] ERROR org.ait.phonebook.TestBase -- ********************

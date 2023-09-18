@@ -1,0 +1,43 @@
+661  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\Alber\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2394 [main] INFO  org.ait.phonebook.TestBase -- Start test isHomeComponentPresentTestwith data: []
+2437 [main] INFO  org.ait.phonebook.TestBase -- PASSED:isHomeComponentPresentTest
+2437 [main] INFO  org.ait.phonebook.TestBase -- stop test
+2437 [main] ERROR org.ait.phonebook.TestBase -- ********************
+2440 [main] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestwith data: []
+5074 [main] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTest
+5080 [main] INFO  org.ait.phonebook.TestBase -- stop test
+5080 [main] ERROR org.ait.phonebook.TestBase -- ********************
+5087 [main] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderwith data: [Oliver, Kan, 12345678952, kan@gmail.com, Berlin, goalkeeper]
+30068 [main] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTestFromDataProvider
+30068 [main] INFO  org.ait.phonebook.TestBase -- stop test
+30068 [main] ERROR org.ait.phonebook.TestBase -- ********************
+30069 [main] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderwith data: [Oliver1, Kan, 12345679521, kan1@gmail.com, Berlin, goalkeeper1]
+54923 [main] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTestFromDataProvider
+54923 [main] INFO  org.ait.phonebook.TestBase -- stop test
+54923 [main] ERROR org.ait.phonebook.TestBase -- ********************
+54925 [main] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderwith data: [Oliver2, Kan, 123456712588, kan2@gmail.com, Berlin, goalkeeper2]
+79534 [main] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTestFromDataProvider
+79534 [main] INFO  org.ait.phonebook.TestBase -- stop test
+79534 [main] ERROR org.ait.phonebook.TestBase -- ********************
+79540 [main] INFO  org.ait.phonebook.TestBase -- Start test existedUserRegistrationNegativeTestwith data: []
+104029 [main] INFO  org.ait.phonebook.TestBase -- PASSED:existedUserRegistrationNegativeTest
+104030 [main] INFO  org.ait.phonebook.TestBase -- stop test
+104030 [main] ERROR org.ait.phonebook.TestBase -- ********************
+104032 [main] INFO  org.ait.phonebook.TestBase -- Start test removePositiveTestwith data: []
+106680 [main] INFO  org.ait.phonebook.TestBase -- PASSED:removePositiveTest
+106680 [main] INFO  org.ait.phonebook.TestBase -- stop test
+106680 [main] ERROR org.ait.phonebook.TestBase -- ********************
+106682 [main] INFO  org.ait.phonebook.TestBase -- Start test loginNegativeWithoutEmailTestwith data: []
+130426 [main] INFO  org.ait.phonebook.TestBase -- PASSED:loginNegativeWithoutEmailTest
+130426 [main] INFO  org.ait.phonebook.TestBase -- stop test
+130426 [main] ERROR org.ait.phonebook.TestBase -- ********************
+130428 [main] INFO  org.ait.phonebook.TestBase -- Start test loginPositiveTestwith data: []
+131052 [main] INFO  org.ait.phonebook.TestBase -- PASSED:loginPositiveTest
+131052 [main] INFO  org.ait.phonebook.TestBase -- stop test
+131052 [main] ERROR org.ait.phonebook.TestBase -- ********************
+131053 [main] INFO  org.ait.phonebook.TestBase -- Start test loginPositiveTestWithScreencastwith data: []
+160065 [main] INFO  org.ait.phonebook.TestBase -- PASSED:loginPositiveTestWithScreencast
+160065 [main] INFO  org.ait.phonebook.TestBase -- stop test
+160065 [main] ERROR org.ait.phonebook.TestBase -- ********************

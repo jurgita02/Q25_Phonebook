@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ait.phonebook.AddContactTests" tests="5" skipped="1" failures="0" errors="0" timestamp="2023-09-17T11:10:55" hostname="KOMPIUTERIS" time="75.618">
+  <properties/>
+  <testcase name="addContactPositiveTest" classname="org.ait.phonebook.AddContactTests" time="1.274"/>
+  <testcase name="addContactPositiveTestFromDataProvider[0](Oliver, Kan, 12345678952, kan@gmail.com, Berlin, goalkeeper)" classname="org.ait.phonebook.AddContactTests" time="0.939"/>
+  <testcase name="addContactPositiveTestFromDataProvider[1](Oliver1, Kan, 12345679521, kan1@gmail.com, Berlin, goalkeeper1)" classname="org.ait.phonebook.AddContactTests" time="1.046"/>
+  <testcase name="addContactPositiveTestFromDataProvider[2](Oliver2, Kan, 123456712588, kan2@gmail.com, Berlin, goalkeeper2)" classname="org.ait.phonebook.AddContactTests" time="1.008"/>
+  <testcase name="addContactPositiveTestFromDataProviderWithCSV" classname="org.ait.phonebook.AddContactTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[13:10:54.437 [Test worker] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestwith data: []
+13:10:56.944 [Test worker] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTest
+13:10:56.945 [Test worker] INFO  org.ait.phonebook.TestBase -- stop test
+13:10:56.945 [Test worker] ERROR org.ait.phonebook.TestBase -- ********************
+13:10:56.950 [Test worker] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderwith data: [Oliver, Kan, 12345678952, kan@gmail.com, Berlin, goalkeeper]
+13:11:21.686 [Test worker] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTestFromDataProvider
+13:11:21.692 [Test worker] INFO  org.ait.phonebook.TestBase -- stop test
+13:11:21.692 [Test worker] ERROR org.ait.phonebook.TestBase -- ********************
+13:11:21.693 [Test worker] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderwith data: [Oliver1, Kan, 12345679521, kan1@gmail.com, Berlin, goalkeeper1]
+13:11:46.476 [Test worker] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTestFromDataProvider
+13:11:46.476 [Test worker] INFO  org.ait.phonebook.TestBase -- stop test
+13:11:46.476 [Test worker] ERROR org.ait.phonebook.TestBase -- ********************
+13:11:46.477 [Test worker] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderwith data: [Oliver2, Kan, 123456712588, kan2@gmail.com, Berlin, goalkeeper2]
+13:12:11.200 [Test worker] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTestFromDataProvider
+13:12:11.200 [Test worker] INFO  org.ait.phonebook.TestBase -- stop test
+13:12:11.200 [Test worker] ERROR org.ait.phonebook.TestBase -- ********************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,23 @@
+574  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\Alber\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+2139 [main] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderWithCSVwith data: [Contact{name='Le', phoneNumber='123456789410'}]
+5726 [main] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTestFromDataProviderWithCSV
+5726 [main] INFO  org.ait.phonebook.TestBase -- stop test
+5726 [main] ERROR org.ait.phonebook.TestBase -- ********************
+5727 [main] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderWithCSVwith data: [Contact{name='Manuel', phoneNumber='123456789410'}]
+31540 [main] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTestFromDataProviderWithCSV
+31540 [main] INFO  org.ait.phonebook.TestBase -- stop test
+31540 [main] ERROR org.ait.phonebook.TestBase -- ********************
+31541 [main] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderWithCSVwith data: [Contact{name='Manuellllllllllllllllll', phoneNumber='123456789410'}]
+57505 [main] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTestFromDataProviderWithCSV
+57505 [main] INFO  org.ait.phonebook.TestBase -- stop test
+57505 [main] ERROR org.ait.phonebook.TestBase -- ********************
+57506 [main] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderWithCSVwith data: [Contact{name='Manuel-Le', phoneNumber='123456789410'}]
+83287 [main] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTestFromDataProviderWithCSV
+83287 [main] INFO  org.ait.phonebook.TestBase -- stop test
+83288 [main] ERROR org.ait.phonebook.TestBase -- ********************
+83288 [main] INFO  org.ait.phonebook.TestBase -- Start test addContactPositiveTestFromDataProviderWithCSVwith data: [Contact{name='Manuel Le', phoneNumber='123456789410'}]
+108758 [main] INFO  org.ait.phonebook.TestBase -- PASSED:addContactPositiveTestFromDataProviderWithCSV
+108758 [main] INFO  org.ait.phonebook.TestBase -- stop test
+108758 [main] ERROR org.ait.phonebook.TestBase -- ********************

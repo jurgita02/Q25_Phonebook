@@ -1,0 +1,4 @@
+5601 [Test worker] INFO  org.ait.phonebook.TestBase -- Start test existedUserRegistrationNegativeTestwith data: []
+7361 [Test worker] INFO  org.ait.phonebook.TestBase -- PASSED:existedUserRegistrationNegativeTest
+7361 [Test worker] INFO  org.ait.phonebook.TestBase -- stop test
+7362 [Test worker] ERROR org.ait.phonebook.TestBase -- ********************
